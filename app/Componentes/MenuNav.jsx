@@ -1,40 +1,39 @@
 import React from 'react'
+import Image from 'next/image'
+
 import estilos from '../Styles/MenuNav.module.css'
 import Link from 'next/link'
 import Github from '../Icons/Github' 
 import Linkedin from '../Icons/Linkedin'
 import MenuIcon from '../Icons/MenuIcon'
 import MenuMobile from './MenuMobile'
+import logo from '@/public/logo-trading.jpg'
+
 const MenuNav = () => {
   return (
 <>
 <nav className={estilos.nav}>
+  <div className="flex align-center items-center">
+    <Image src={logo} width={40} height={40} className='rounded-lg object-cover' alt='Logo de winners funds' />
+    <span className='text-white'>Winner funds</span>
+  </div>
+
+
   <ul>
     <li>
-      <Link href="#">Home</Link>
+      <Link href="#">Inicio</Link>
     </li>
     <li>
-      <Link href="#proyectos">Proyectos</Link>
+      <Link href="#proyectos">Servicios</Link>
     </li>
     <li>
-      <Link href="#about">About</Link>
+      <Link href="#about">Nosotros</Link>
     </li>
     <li>
-      <Link href="#contacto">Contact</Link>
+      <Link href="#contacto">Contacto</Link>
     </li>
   </ul>
 
-  <a href="https://github.com/luigy23" target="_blank" rel="noopener noreferrer">
-  <Github className="w-7 fill-fercho-400 mr-2
-  hover:fill-slate-50 transition-colors ease-in-out
-  
-  " />
-  </a>
-  <a href="https://www.linkedin.com/in/luigy/" target="_blank" rel="noopener noreferrer">
-    <Linkedin className="w-8 text-fercho-400 
-    hover:text-slate-50 transition-colors ease-in-out
-    " />
-  </a>
 </nav>
 <MenuMobile />
 

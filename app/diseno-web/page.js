@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '@/public/logoB.svg'
+import logo from '@/public/logo-trading.jpg'
 import Image from 'next/image'
 import Laptop from '../Lotties/Laptop'
 

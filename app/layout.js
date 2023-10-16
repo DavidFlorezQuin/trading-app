@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata = {
-  title: 'Luigy Leonardo',
+  title: 'Winners funds',
   description: 'Desarrollador Web | Full-Stack',
 }
 

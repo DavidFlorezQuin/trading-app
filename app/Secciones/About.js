@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import yo from '@/public/yo.png'
+import cel from '@/public/cel-trading.png'
 import WordpressIcon, { Wordpress } from '../Icons/Wordpress'
 import { ReactIcon } from '../Icons/React'
 import { Nexticon } from '../Icons/Next'
@@ -13,108 +13,20 @@ const About = () => {
     return (
         <section
         id='about'
-        className='w-full min-h-screen bg-smoke-800 blanco  flex flex-col items-center justify-start p-5'>
+        className='w-full min-h-screen bg-smoke-800 blanco gap-10 flex items-center justify-center p-5'>
+            
             {/* div para el contenido con su ancho correspondiente: */}
-            <div className='w-full md:w-2/3 lg:w-w-2/3  xl:w-w-2/3 text-center'>
-                <h1 className='text-slate-100 font-bold uppercase '>Sobre mí</h1>
-                <div className='w-20 h-1 bg-fercho-400 mx-auto mt-2 mb-5'></div>
-
-                <p className='text-slate-300 font-light mt-2 md:text-base text-sm '>Soy un desarrollador web full-stack, con gusto por el diseño UX UI.
-                    Empecé con el desarrollo web en 2020 y, desde entonces, he estado aprendiendo y practicando constantemente para mejorar mis habilidades y conocimientos.
-                </p>
+            <div className='w-full md:w-1/3'>
+                <h1 className='text-slate-100 font-bold uppercase '>Descubre tu potencial financiero en el Forex.</h1>
+                <p className='text-slate-300 font-light mt-2  text-sm '>¿Alguna vez has soñado con tener el control de tus finanzas y forjar tu camino hacia la independencia financiera? El trading de Forex te brinda la oportunidad de hacer precisamente eso. En el mercado de divisas más grande y líquido del mundo, las posibilidades son infinitas.</p>
             </div>
-
-            <div className='w-full flex flex-col md:flex-row justify-center '>
-                {/* Lista de Hablidades */}
-                <div className='w-full md:w-1/3 p-2 mx-auto mt-2 mb-5 flex flex-col items-center  '>
-                
-                    <ul className='text-slate-300 font-light mt-2 md:text-xl text-sm overflow-visible w-36 flex flex-col gap-3 md:items-start '>
-                    <h3 className='text-slate-100 font-bold uppercase mt-2 md:text-xl'>Habilidades</h3>
-                        <li >
-                            <span className='flex items-center'>
-                                <ReactIcon className='w-5 mr-2 fill-scooter-500' />
-                                <span>React Js</span>
-                            </span>
-                        </li>
-                        <li >
-                            <span className='flex items-center'>
-                                <Nexticon className='w-5 mr-2 fill-white' />
-                                <span>Next Js</span>
-                            </span>
-                        </li>
-                        <li >
-                            <span className='flex items-center'>
-                                <NodeIcon className='w-5 mr-2 fill-white' />
-                                <span>Node Js</span>
-                            </span>
-                        </li>
-                        <li >
-                            <span className='flex items-center'><Wordpress className='w-5 mr-2 fill-white' />
-                                <span>Wordpress</span>
-                            </span>
-                        </li>
-
-                        <li >
-                            <span className='flex items-center'>
-                                <Webicon className='w-5 mr-2 fill-white' />
-                                <span className='text-base'>HTML, CSS, JavaScript</span>
-                            </span>
-                        </li>
-
-                        <h3 className='text-slate-100 font-bold uppercase mt-2 '>Herramientas</h3>
-                        <li >
-                            <span className='flex items-center'>
-                                <Figma className='w-5 mr-2 ' />
-                                <span>Figma</span>
-                            </span>
-                        </li>
-                        <li >
-                            <span className='flex items-center'>
-                                <Illustrator className='w-5 mr-2 fill-white' />
-                                <span>Illustrator</span>
-                            </span>
-                        </li>
-
-
-
-                    </ul>
-
-                </div>
        
                 {/* Foto MIA */}
                 <div className='flex flex-col items-center relative  md:order-none order-last'>
-                    <Image src={yo} width={300} height={300} className='rounded-lg mb-3 object-cover' alt='Logo de Luigy dev' />
-                    <span className='w-full  -mt-10'><Colombia className='w-8'
-                    /></span>
+                    <Image src={cel} width={300} height={300} className='object-cover' alt='logo winners found' />
+                    
                 </div>
-                <div className='w-full md:w-1/3 p-2 mx-auto mt-2 mb-5 flex flex-col md:items-start items-center '>
-                    <h3 className='text-slate-100 font-bold uppercase mt-2 md:text-xl'>Estudios</h3>
-                    <ul className='text-slate-300 font-light mt-2 md:text-base text-sm overflow-visible w-full flex flex-col gap-3 md:items-start items-center text-center'>
-                        <li className='bg-smoke-900 px-2 py-1 rounded-lg w-[85%]'>
-                            <span className='text-fercho-300 '>Técnico en diseño y programación de software <br /></span>
-                            Instituto Técnico Superior Neiva | 2019-2020
-                        </li>
-                        <li className='bg-smoke-900 px-2 py-1 rounded-lg w-[85%]'>
-                            <span className='text-fercho-300 '>Ingeniería de software <br /></span>
-                            Universidad Surcolombiana | 2021 - Actualidad
-                        </li>
-                        <li className='bg-smoke-900 px-2 py-1 rounded-lg w-[85%]'>
-                            <span className='text-fercho-300 '>Autodidacta en desarrollo web <br /></span>
-                            2019 - Actualidad
-                        </li>
 
-
-
-                    </ul>
-
-                </div>
- 
-
-
-
-            </div>
-
-     
 
         </section>
     )
