@@ -1,4 +1,5 @@
 import './globals.css'
+import MenuNav from './Componentes/MenuNav'
 
 import { Inter, Poppins } from 'next/font/google'
 const poppins = Poppins({ subsets: ['latin'],
@@ -16,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+      <MenuNav />
+        
+        {children}</body>
     </html>
   )
 }

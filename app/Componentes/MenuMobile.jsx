@@ -6,6 +6,7 @@ import Github from '../Icons/Github'
 import Linkedin from '../Icons/Linkedin'
 import MenuIcon from '../Icons/MenuIcon'
 import Close from '../Icons/Close'
+import { Whatsapp } from '../Icons/Whatsapp'
 
 const MenuMobile = () => {
 
@@ -33,23 +34,23 @@ const handleClic = () => {
 }>
   <ul>
     <li>
-      <Link href="#" onClick={handleClic}>Home</Link>
+      <Link href="#" onClick={handleClic}>Inicio</Link>
     </li>
     <li>
-      <Link href="#proyectos"  onClick={handleClic}>Proyectos</Link>
+      <Link href="#proyectos"  onClick={handleClic}>Servicios</Link>
     </li>
     <li>
-      <Link href="#about"  onClick={handleClic} >About</Link>
+      <Link href="#about"  onClick={handleClic} >Nosotros</Link>
     </li>
     <li>
-      <Link href="#contacto" onClick={handleClic}>Contact</Link>
+      <Link href="#contacto" onClick={handleClic}>Contacto</Link>
     </li>
   </ul>
   {/* div horizontal: */}
   <div className="flex gap-3 justify-center items-center ">
   
-  <a href="https://github.com/luigy23" target="_blank" rel="noopener noreferrer">
-  <Github className="w-7 fill-fercho-400 mr-2
+  <a href="https://wa.link/vue922" target="_blank" rel="noopener noreferrer">
+  <Whatsapp className="w-10 fill-fercho-400 mr-2
   hover:fill-slate-50 transition-colors ease-in-out
   
   " />

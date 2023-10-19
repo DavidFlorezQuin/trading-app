@@ -21,16 +21,16 @@ const MenuNav = () => {
 
   <ul>
     <li>
-      <Link href="#">Inicio</Link>
+      <Link href="/">Inicio</Link>
     </li>
     <li>
-      <Link href="#proyectos">Servicios</Link>
+      <Link href="/services">Servicios</Link>
     </li>
     <li>
-      <Link href="#about">Nosotros</Link>
+      <Link href="/about">Nosotros</Link>
     </li>
     <li>
-      <Link href="#contacto">Contacto</Link>
+      <Link href="/contacto">Contacto</Link>
     </li>
   </ul>
 
