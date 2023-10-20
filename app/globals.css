@@ -21,7 +21,8 @@ b {
   box-shadow:-0.1em 0.4em 0px 0px #0371c4;
 }
 .btn-contact:hover {
-  @apply text-white scale-105 ;
+  @apply text-white bg-sky-950 ;
+
 }
 .btn-contact:active {
 

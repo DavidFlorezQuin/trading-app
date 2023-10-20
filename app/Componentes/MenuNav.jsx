@@ -1,11 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-
 import estilos from '../Styles/MenuNav.module.css'
 import Link from 'next/link'
-import Github from '../Icons/Github' 
-import Linkedin from '../Icons/Linkedin'
-import MenuIcon from '../Icons/MenuIcon'
 import MenuMobile from './MenuMobile'
 import logo from '@/public/logo-trading.jpg'
 
@@ -14,8 +10,8 @@ const MenuNav = () => {
 <>
 <nav className={estilos.nav}>
   <div className="flex align-center items-center">
-    <Image src={logo} width={40} height={40} className='rounded-lg object-cover' alt='Logo de winners funds' />
-    <span className='text-white'>Winner funds</span>
+    <Image src={logo} width={50} height={50} className='rounded-lg object-cover mr-3' alt='Logo de winners funds' />
+    <span className='text-white font-bold text-2xl'>Winner funds</span>
   </div>
 
 

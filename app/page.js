@@ -8,7 +8,7 @@ import logo from '@/public/logo-trading.jpg'
 import Link from 'next/link'
 import About from './Secciones/About'
 import Contact from './Secciones/Contact'
-
+import Working from './Secciones/Working'
 
 export default function Home() {
   return (
@@ -29,6 +29,7 @@ export default function Home() {
       </section>
 
       <About />
+      <Working/>
       <Contact />
 
 

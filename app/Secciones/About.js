@@ -1,14 +1,6 @@
-import React from 'react'
+import React from 'react'   
 import Image from 'next/image'
 import cel from '@/public/cel-trading.png'
-import WordpressIcon, { Wordpress } from '../Icons/Wordpress'
-import { ReactIcon } from '../Icons/React'
-import { Nexticon } from '../Icons/Next'
-import { NodeIcon } from '../Icons/NodeIcon'
-import { Colombia } from '../Icons/Colombia'
-import { Figma } from '../Icons/Figma'
-import { Illustrator } from '../Icons/Illustrator'
-import Webicon from '../Icons/Webicon'
 const About = () => {
     return (
         <section
