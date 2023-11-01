@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import style from '@/app/Styles/MenuNav.module.css'
 import Link from 'next/link'
-import Github from '../Icons/Github' 
 import Linkedin from '../Icons/Linkedin'
 import MenuIcon from '../Icons/MenuIcon'
 import Close from '../Icons/Close'
@@ -55,7 +54,7 @@ const handleClic = () => {
   
   " />
   </a>
-  <a href="https://www.linkedin.com/in/luigy/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
     <Linkedin className="w-8 text-fercho-400 
     hover:text-slate-50 transition-colors ease-in-out
     " />

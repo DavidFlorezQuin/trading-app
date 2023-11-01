@@ -20,13 +20,13 @@ const MenuNav = () => {
       <Link href="/">Inicio</Link>
     </li>
     <li>
-      <Link href="/services">Servicios</Link>
+      <Link href="#service">Servicios</Link>
     </li>
     <li>
-      <Link href="/about">Nosotros</Link>
+      <Link href="#about">Nosotros</Link>
     </li>
     <li>
-      <Link href="/contacto">Contacto</Link>
+      <Link href="#contacto">Contacto</Link>
     </li>
   </ul>
 

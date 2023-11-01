@@ -1,7 +1,9 @@
+import Link from 'next/link';
 import React from 'react'
+Link
 
 const Cards = (props) => {
-    const { imageUrl, title, description } = props;
+    const { imageUrl, title, description, url } = props;
     
     return(
 <>
@@ -17,7 +19,10 @@ const Cards = (props) => {
       <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-4 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-dmserif text-3xl mb-2 font-bold text-transparent bg-gradient-to-br from-white to-gray-200 bg-clip-text">{title}</h1>
         <p class="mb-3 text-md italic leading-6 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{description}.</p>
+        <Link href={url}>
+
         <button class="rounded-full bg-cyan-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-cyan-500 transition transform">Saber más</button>
+        </Link>
       </div>
     </div>
   </>

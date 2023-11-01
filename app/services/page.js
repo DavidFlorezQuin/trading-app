@@ -1,12 +1,8 @@
 "use client"
 
-import Image from 'next/image'
 import MenuNav from '../Componentes/MenuNav' 
-import logo from '@/public/logo-trading.jpg'
 import Link from 'next/link'
-import About from '../Secciones/About'
-import Contact from '../Secciones/Contact'
-import Service from '../Secciones/Services'
+import Service from '../Secciones/Service'
 
 export default function Seccion(){
     return(
