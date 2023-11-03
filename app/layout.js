@@ -18,13 +18,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <ChakraProvider>
         <body className={poppins.className}>
           <MenuNav />
-
           {children}
         </body>
-      </ChakraProvider>
     </html>
   );
 }
