@@ -28,52 +28,47 @@ export default function Home() {
         <h2 className='text-slate-50 font-medium mt-2  '><em>Gana en grande con Forex, gana con nosotros.</em>
         </h2>
 
-        <div className='w-full flex flex-col md:flex-row justify-center gap-3 '>
-<a 
-href='https://www.tiktok.com/@winnersfunds?_t=8hAG1mgdnEs&_r=1'
-target='_blank'
+        <div className='w-full flex items-center justify-center gap-3'>
+          <a
+            href='https://www.tiktok.com/@winnersfunds?_t=8hAG1mgdnEs&_r=1'
+            target='_blank'
+            className=' bg-cyan-500 text-slate-50 py-5 w-40
+             p-2 rounded-xl gap-1 flex mt-5 
+            justify-center items-center
+            text-sm font-semibold 
+             hover:bg-fercho-400 hover:text-white
+            transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110
+            active:bg-fercho-400 active:text-slate-900'>
+
+            <IconTiktok /> Ir a tiktok
+          </a>
 
 
+          <a
+            href='https://t.me/+34MG0BT5k3wwNDIx'
+            target='_blank'
 
-className=' bg-cyan-500 text-slate-50 py-5 w-40
- p-2 rounded-xl gap-1 flex mt-5 
- justify-center items-center
- text-sm font-semibold 
- hover:bg-fercho-400 hover:text-white
-transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110
-active:bg-fercho-400 active:text-slate-900
- 
- '>
-<IconTiktok /> Ir a tiktok
-</a>
-
-<a 
-href='https://t.me/+34MG0BT5k3wwNDIx'
-target='_blank'
-
-
-
-className=' bg-cyan-500 text-white
+            className=' bg-cyan-500 text-white
  p-2 rounded-xl gap-1 flex mt-5 w-40
  justify-center items-center
  text-sm font-semibold 
  hover:bg-fercho-400 hover:text-white
 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110
 active:bg-fercho-400 active:text-slate-900
- 
  '>
 
-<Linkedin className='w-5 ' /> Ir a telegram 
+            <Linkedin className='w-5 ' /> Ir a telegram
 
-</a>
-</div>
+          </a>
+
+        </div>
         <Link href="#about" className='down'> <Down_Arrow className="text-slate-50 w-10  " /></Link>
 
       </section>
 
-      <Service/>
+      <Service />
       <About />
-      
+
       <Working />
       <Contact />
 

@@ -30,20 +30,18 @@ const Contact = () => {
  text-sm font-semibold 
  hover:bg-fercho-400 hover:text-white
 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110
-active:bg-fercho-400 active:text-slate-900
- 
- '>
+active:bg-fercho-400 active:text-slate-900'>
+  <div className='w-40 flex items-center gap-5 justify-center'>
 
-          <Linkedin className='w-5 ' /> Ir a Telegram
-
+          <Linkedin className='w-5' /> Ir a Telegram
+</div>
         </a>
-        <a
-          href='https://wa.link/vue922'
+
+
+        <a href='https://wa.link/vue922'
           target='_blank'
 
-
-
-          className=' bg-cyan-500 text-slate-50
+          className=' bg-cyan-500 text-slate-50 w-full md:w-36
  p-2 rounded-xl gap-1 flex mt-5 
  justify-center items-center
  text-sm font-semibold 
@@ -52,15 +50,16 @@ transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-1
 active:bg-fercho-400 active:text-slate-900
  
  '>
+  <div className='w-40 flex items-center gap-5 justify-center'>
 
-          <Whatsapp className='w-5 ' /> Ir a Whatsapp
-
+          <Whatsapp className='w-5 font-bold' /> Ir a Whatsapp
+</div>
         </a>
 
         <a
           href='https://www.tiktok.com/@winnersfunds?_t=8hAG1mgdnEs&_r=1'
           target='_blank'
-          className=' bg-cyan-500 text-slate-50 py-5 w-40
+          className=' bg-cyan-500 text-slate-50 w-full md:w-36
  p-2 rounded-xl gap-1 flex mt-5 
  justify-center items-center
  text-sm font-semibold 
@@ -69,7 +68,9 @@ transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-1
 active:bg-fercho-400 active:text-slate-900
  
  '>
-          <IconTiktok /> Ir a tiktok
+  <div className='w-40 flex items-center gap-5 justify-center'>
+          <IconTiktok className='w-5' /> Ir a tiktok
+  </div>
         </a>
 
       </div>

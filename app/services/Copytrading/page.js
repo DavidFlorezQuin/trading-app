@@ -2,6 +2,9 @@
 
 import MiniCards from '@/app/Componentes/MiniCards';
 import MyAccordion from '@/app/Componentes/MyAccordion';
+import Image from 'next/image'
+import cohete from '@/public/cohete_up.png';
+
 
 export default function Seccion() {
     return (
@@ -12,9 +15,10 @@ export default function Seccion() {
 
                 <div className='w-3/4 text-start'>
                     <article>
-                        <h2 className='text-slate-50 mt-36 text-2xl font-bold uppercase'>¿Qué es el copytrading? </h2>
+                        <h2 className='text-slate-50 mt-36 text-2xl font-bold uppercase'>¿Qué es el copytradingmf? </h2>
                         <p className='text-slate-50 font-normal mt-5'>Copytrading, también conocido como trading social, es una forma de inversión que permite a los inversores seguir y copiar automáticamente las operaciones realizadas por traders experimentados en el mercado. En lugar de operar por sí mismos, los inversores pueden elegir a traders a seguir y duplicar sus estrategias y movimientos en sus propias cuentas de trading.</p>
                     </article>
+                    
                     <article className='text-slate-50'>
 
                         <h2 className='text-slate-50 mt-12 text-2xl font-bold uppercase'>Pasos para iniciar </h2>
@@ -35,7 +39,7 @@ export default function Seccion() {
                             </li>
                             <li className='h-20 flex gap-4 items-center'>
                                 <span className='border shadow-cyan-300 shadow-md rounded-full w-12 flex justify-center items-center h-12'>4</span>
-                                Ingresa al<a href='http://my.roboforex.com/es/copyfx/providers/show/296423/' target='_blank'>link</a>para sincronizar las cuentas
+                               <p>Ingresa al<a href='http://my.roboforex.com/es/copyfx/providers/show/296423/' className='px-2 text-cyan-400 underline' target='_blank'>link</a>para sincronizar las cuentas</p>
                             </li>
                         </ul>
                     </article>
@@ -43,27 +47,39 @@ export default function Seccion() {
 
 
                     <h2 className='text-slate-50 mt-14 text-2xl font-bold uppercase'>Beneficios del Copytrading</h2>
-                    <section className='flex gap-4 flex-wrap mt-11'>
-                    <MiniCards
-                        title="Acceso a la Experiencia Profesional: "
-                        description="Obtén acceso inmediato a la experiencia de traders experimentados, incluso si eres un inversor principiante."
-                    />
-                    <MiniCards
-                        title="Diversificación de Cartera"
-                        description="Puedes diversificar tus inversiones al seguir a varios traders y estrategias diferentes."
-                    />
-                    <MiniCards
-                        title="Ahorro de Tiempo"
-                        description="No es necesario realizar un análisis constante del mercado; el copytrading se encarga de ello automáticamente."
-                    />
-                    <MiniCards
-                        title="Control Total"
-                        description="Mantienes el control total sobre tu cuenta y puedes ajustar o detener las operaciones en cualquier momento."
-                    />
-                    <MiniCards
-                        title="Aprendizaje Continuo"
-                        description="Observa y aprende de los traders que sigues para mejorar tus habilidades de inversión."
-                    />
+
+                    <section className='flex justify-around flex-wrap mt-11'>
+
+                        <div className='flex flex-col gap-9'>
+                            <MiniCards
+                                num="1"
+                                title="Experiencia Profesional"
+                                description="Obtén acceso inmediato a la experiencia de traders experimentados, incluso si eres un inversor principiante."
+                            />
+                            <MiniCards
+                                num="2"
+                                title="Diversificación de Cartera"
+                                description="Puedes diversificar tus inversiones al seguir a varios traders y estrategias diferentes."
+                            />
+                        </div>
+                            <div className='self-center'>
+                            <Image src={cohete} width={300} height={120} className='' alt='Logo de winners found' />
+                            </div>
+
+                            <div className='flex flex-col gap-9'>
+
+                        <MiniCards
+                            num="3"
+                            title="Ahorro de Tiempo"
+                            description="No es necesario realizar un análisis constante del mercado; el copytrading se encarga de ello automáticamente."
+                            />
+                        <MiniCards
+                            num="4"
+                            title="Control Total"
+                            description="Mantienes el control total sobre tu cuenta y puedes ajustar o detener las operaciones en cualquier momento."
+                            />
+                            </div>
+
                     </section>
                 </div>
 

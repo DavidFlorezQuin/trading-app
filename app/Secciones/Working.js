@@ -17,7 +17,7 @@ export default function Working() {
 
                     <h3 className='text-sm text-slate-50 font-normal mt-5'>En Winners Funds, priorizamos la seguridad, la innovación y la diversificación. Ofrecemos tecnología avanzada, medidas de seguridad sólidas y una amplia gama de oportunidades de inversión. Nuestro compromiso es ayudarte a prosperar en el mundo del trading de Forex y activos financieros. Tu éxito es nuestra prioridad.
 
-                        <div className="flex justify-between mt-10">
+                        <div className="flex justify-between flex-wrap gap-3 mt-10">
                             <div className="bg-slate-800 grid place-content-center p-5 w-72 rounded-md">
 
                                 <div className="bg-slate-500 rounded-full mx-auto w-16 h-16 p-3 grid place-content-center">
