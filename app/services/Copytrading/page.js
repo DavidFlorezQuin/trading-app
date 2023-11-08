@@ -12,7 +12,7 @@ export default function Seccion() {
 
                 <div className='w-3/4 text-start'>
                     <article>
-                        <h2 className='text-slate-50 mt-36 text-2xl font-bold uppercase'>¿Qué es? </h2>
+                        <h2 className='text-slate-50 mt-36 text-2xl font-bold uppercase'>¿Qué es el copytrading? </h2>
                         <p className='text-slate-50 font-normal mt-5'>Copytrading, también conocido como trading social, es una forma de inversión que permite a los inversores seguir y copiar automáticamente las operaciones realizadas por traders experimentados en el mercado. En lugar de operar por sí mismos, los inversores pueden elegir a traders a seguir y duplicar sus estrategias y movimientos en sus propias cuentas de trading.</p>
                     </article>
                     <article className='text-slate-50'>
